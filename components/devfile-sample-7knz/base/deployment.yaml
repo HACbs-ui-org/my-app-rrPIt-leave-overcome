@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-7knz
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoupuicluster/rorai-tenant/my-app/devfile-sample-7knz@sha256:7128eb9b50f61a1081cbb333d1f93eee1eba6870e0cad427509c80fe474c8e6c
         name: my-nodejs
         ports:
         - containerPort: 3001
