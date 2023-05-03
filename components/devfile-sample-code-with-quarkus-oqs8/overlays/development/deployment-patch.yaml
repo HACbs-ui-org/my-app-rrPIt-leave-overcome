@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-oqs8
+  namespace: rorai-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/rorai-tenant/my-app/devfile-sample-code-with-quarkus-oqs8@sha256:4fb8c0d78b190a54e27de5fe9765b6c05274dfbbb3326935b08519e0574f07bd
+        name: my-java-quarkus
+        resources: {}
+status: {}
