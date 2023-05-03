@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-code-with-quarkus-oqs8
     app.kubernetes.io/part-of: my-app
-  name: devfile-sample-code-with-2tlh
+  name: devfile-sample-code-with-ot5d
   namespace: rorai-tenant
 spec:
   path: /
